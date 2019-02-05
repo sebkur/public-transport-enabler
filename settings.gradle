@@ -1,2 +1,4 @@
 include 'enabler'
 include 'service'
+project(':enabler').name = 'public-transport-enabler'
+project(':service').name = 'public-transport-service'
